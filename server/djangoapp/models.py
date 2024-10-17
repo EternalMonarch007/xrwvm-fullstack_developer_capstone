@@ -30,7 +30,7 @@ class CarModel(models.Model):
                                validators=[
                                 MaxValueValidator(2023),
                                 MinValueValidator(2015)
-                            ])
+                              ])
     # Other fields as needed
 
     def __str__(self):
